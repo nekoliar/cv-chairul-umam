@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================
+   BASE STYLES
+   ========================================== */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fcf8ff;
+  color: #1c1b20;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================
+   TYPOGRAPHY UTILITIES
+   ========================================== */
+.font-display {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* ==========================================
+   ANIMATION UTILITIES (opacity: 0 initial)
+   ========================================== */
+.animate-on-scroll {
+  opacity: 0;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+}
+
+/* ==========================================
+   GLASSMORPHISM NAVBAR
+   ========================================== */
+.navbar-glass {
+  background: rgba(252, 248, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(199, 197, 210, 0.4);
+}
+
+/* ==========================================
+   TIMELINE CONNECTOR
+   ========================================== */
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #e2dfff, #c2c1ff, #5656a0, #c2c1ff, #e2dfff);
+}
+
+/* ==========================================
+   CARD HOVER LIFT
+   ========================================== */
+.card-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 8px 32px rgba(86, 86, 160, 0.18);
+}
+
+/* ==========================================
+   SKILL PILL HOVER
+   ========================================== */
+.pill-technical {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.pill-technical:hover {
+  transform: scale(1.07);
+  background-color: #3e3e87;
+}
+
+.pill-professional {
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.pill-professional:hover {
+  transform: scale(1.07);
+  background-color: #e2dfff;
+  border-color: #5656a0;
+}
+
+/* ==========================================
+   SECTION SPACING
+   ========================================== */
+.section-padding {
+  padding: 96px 0;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 64px 0;
+  }
+}
+
+/* ==========================================
+   GRADIENT TEXT
+   ========================================== */
+.gradient-text {
+  background: linear-gradient(135deg, #5656a0 0%, #3e3e87 50%, #c2c1ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ==========================================
+   SCROLLBAR STYLING
+   ========================================== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0ecf3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2c1ff;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5656a0;
+}

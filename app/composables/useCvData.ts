@@ -8,7 +8,7 @@ export const useCvData = () => {
     email: 'umampelay@gmail.com',
     phone: '+62 813-8054-6997',
     location: 'Cikarang, Jawa Barat, Indonesia',
-    linkedin: 'linkedin.com/in/chairul-umam',
+    linkedin: 'linkedin.com/in/chairul-umam-pelayati-a3ba19166',
   }
 
   const experiences = [

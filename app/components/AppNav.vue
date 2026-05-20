@@ -6,11 +6,8 @@
     <nav class="max-w-6xl mx-auto px-6 lg:px-12 h-[72px] flex items-center justify-between">
       <!-- Logo / Brand -->
       <div class="flex items-center gap-3">
-        <div
-          class="w-10 h-10 rounded-xl flex items-center justify-center text-white font-display font-bold text-sm"
-          style="background: linear-gradient(135deg, #5656a0 0%, #3e3e87 100%)"
-        >
-          CUP
+        <div class="w-10 h-10 rounded-xl overflow-hidden shrink-0 border border-ink-faint/30">
+          <img src="~/assets/img/fotoprofil.jpeg" alt="Avatar" class="w-full h-full object-cover object-top" />
         </div>
         <div class="hidden sm:block">
           <p class="font-display font-semibold text-ink text-sm leading-tight">Chairul Umam Pelayati</p>

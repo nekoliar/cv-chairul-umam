@@ -92,39 +92,36 @@
               style="background: linear-gradient(145deg, #e2dfff 0%, #c2c1ff 50%, #a0a0d8 100%)"
             >
               <!-- Abstract QC-themed decorative content -->
-              <div class="w-full h-full flex flex-col items-center justify-center gap-4 relative">
-                <!-- Lab flask / QC Icon decoration -->
-                <div class="absolute inset-0 overflow-hidden opacity-10">
+              <div class="w-full h-full flex flex-col items-center justify-center gap-5 relative">
+                <!-- Decorative circles -->
+                <div class="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
                   <div class="absolute top-10 left-10 w-32 h-32 rounded-full border-4 border-white"></div>
                   <div class="absolute bottom-20 right-8 w-20 h-20 rounded-full border-4 border-white"></div>
                   <div class="absolute top-1/3 right-4 w-12 h-12 rounded-full border-4 border-white"></div>
                 </div>
-                <!-- Initials Avatar -->
+                
+                <!-- Profile Avatar -->
                 <div
-                  class="w-28 h-28 rounded-full flex items-center justify-center text-white font-display font-bold text-3xl shadow-lg"
-                  style="background: linear-gradient(135deg, #5656a0, #3e3e87)"
+                  class="w-36 h-36 rounded-full overflow-hidden shadow-xl border-4 border-white z-10"
                 >
-                  CUP
+                  <img src="~/assets/img/fotoprofil.jpeg" alt="Chairul Umam Pelayati" class="w-full h-full object-cover object-top" />
                 </div>
-                <div class="text-center px-6">
-                  <p class="font-display font-semibold text-brand-primary-container text-lg">Chairul Umam Pelayati</p>
-                  <p class="text-ink-secondary text-sm mt-1">QC Specialist · 7+ Years Exp.</p>
+                
+                <div class="text-center px-6 z-10">
+                  <p class="font-display font-bold text-brand-primary-container text-xl">Chairul Umam Pelayati</p>
+                  <p class="text-brand-primary text-sm font-medium mt-1">QC Specialist · 7+ Years Exp.</p>
                 </div>
+                
                 <!-- Stats row -->
-                <div class="flex gap-6 mt-4">
+                <div class="flex gap-6 mt-2 z-10 bg-white/40 backdrop-blur-sm px-6 py-3 rounded-2xl border border-white/50">
                   <div class="text-center">
-                    <p class="font-display font-bold text-2xl text-brand-primary-container">35%</p>
-                    <p class="text-xs text-ink-secondary">Defect Reduction</p>
+                    <p class="font-display font-bold text-xl text-brand-primary-container">100%</p>
+                    <p class="text-[10px] text-ink-secondary uppercase tracking-wider font-semibold">Compliance</p>
                   </div>
                   <div class="w-px bg-brand-primary/20"></div>
                   <div class="text-center">
-                    <p class="font-display font-bold text-2xl text-brand-primary-container">3</p>
-                    <p class="text-xs text-ink-secondary">Facilities</p>
-                  </div>
-                  <div class="w-px bg-brand-primary/20"></div>
-                  <div class="text-center">
-                    <p class="font-display font-bold text-2xl text-brand-primary-container">12</p>
-                    <p class="text-xs text-ink-secondary">Team Members</p>
+                    <p class="font-display font-bold text-xl text-brand-primary-container">3</p>
+                    <p class="text-[10px] text-ink-secondary uppercase tracking-wider font-semibold">Facilities</p>
                   </div>
                 </div>
               </div>

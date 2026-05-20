@@ -63,8 +63,8 @@
       <!-- Bottom bar -->
       <div class="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold text-white bg-white/15">
-            CUP
+          <div class="w-8 h-8 rounded-lg overflow-hidden shrink-0 border border-white/20">
+            <img src="~/assets/img/fotoprofil2.jpeg" alt="Avatar" class="w-full h-full object-cover" />
           </div>
           <p class="text-sm text-white/60">
             © {{ new Date().getFullYear() }} Chairul Umam Pelayati. All rights reserved.

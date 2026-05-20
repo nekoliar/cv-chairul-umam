@@ -7,7 +7,7 @@
       <!-- Logo / Brand -->
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-xl overflow-hidden shrink-0 border border-ink-faint/30">
-          <img src="~/assets/img/fotoprofil.jpeg" alt="Avatar" class="w-full h-full object-cover object-top" />
+          <img src="~/assets/img/fotoprofil2.jpeg" alt="Avatar" class="w-full h-full object-cover" />
         </div>
         <div class="hidden sm:block">
           <p class="font-display font-semibold text-ink text-sm leading-tight">Chairul Umam Pelayati</p>

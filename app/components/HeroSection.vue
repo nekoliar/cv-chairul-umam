@@ -104,7 +104,7 @@
                 <div
                   class="w-36 h-36 rounded-full overflow-hidden shadow-xl border-4 border-white z-10"
                 >
-                  <img src="~/assets/img/fotoprofil.jpeg" alt="Chairul Umam Pelayati" class="w-full h-full object-cover object-top" />
+                  <img src="~/assets/img/fotoprofil3.png" alt="Chairul Umam Pelayati" class="w-full h-full object-cover object-top" />
                 </div>
                 
                 <div class="text-center px-6 z-10">
